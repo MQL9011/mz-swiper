@@ -37,14 +37,13 @@ npm i mz-swiper
   "easycom": {
     "autoscan": true,
     "custom": {
-      "^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+      "^z-(.*)": "mz-swiper/src/zebra-swiper/components/z-$1/z-$1.vue"
     }
   },
 	"pages": [...],
 	"globalStyle": {...}
 }
 ```
-
 
 ## 手机预览
 
@@ -61,5 +60,3 @@ npm i mz-swiper
  <img alt="gif" src="https://assets-1256020106.file.myqcloud.com/zebra-swiper/show/total2.gif" width="300" style="margin:20px;" />
  <img alt="gif" src="https://assets-1256020106.file.myqcloud.com/zebra-swiper/show/total3.gif" width="300" style="margin:20px;" />
 </div>
-
-
