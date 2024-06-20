@@ -222,26 +222,28 @@ export default function updateSlides() {
 	if (snapGrid.length === 0) snapGrid = [0];
 
 	if (params.spaceBetween !== 0) {
-		// #ifdef MP-BAIDU
-		const key = swiper.isHorizontal() && rtl ? 'marginLeft' : getDirectionLabel('marginRight');
-		// #endif
-		// #ifndef MP-BAIDU
-		const key = swiper.isHorizontal() && rtl ? 'margin-left' : getDirectionLabel('margin-right');
-		// #endif
-		slides.filter((_, slideIndex) => {
-			if (!params.cssMode) return true;
+    // #ifdef MP-BAIDU
+    const key =
+      swiper.isHorizontal() && rtl
+        ? "marginLeft"
+        : getDirectionLabel("marginRight");
+    // #endif
+    slides
+      .filter((_, slideIndex) => {
+        if (!params.cssMode) return true;
 
-			if (slideIndex === slides.length - 1) {
-				return false;
-			}
+        if (slideIndex === slides.length - 1) {
+          return false;
+        }
 
-			return true;
-		}).forEach((item) => {
-			item.css({
-				[key]: `${spaceBetween}px`
-			})
-		});
-	}
+        return true;
+      })
+      .forEach((item) => {
+        item.css({
+          [key]: `${spaceBetween}px`,
+        });
+      });
+  }
 	if (params.centeredSlides && params.centeredSlidesBounds) {
 		let allSlidesSize = 0;
 		slidesSizesGrid.forEach(slideSizeValue => {

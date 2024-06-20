@@ -2,9 +2,9 @@
 	<img alt="logo" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/logo.png" width="220" style="margin-bottom: 10px;">
 </p>
 
-<h1 align="center">ZebraSwiper</h1>
+<h1 align="center">mz-swiper</h1>
 
-<p align="center">基于uniapp，全面对标swiper，并实现全端兼容。</p>
+<p align="center">基于ZebraSwiper, 魔改了下解决uni-app报错问题。</p>
 
 <p align="center">
 	🔥 <a href="https://swiper.zebraui.com/">文档网站</a>
@@ -14,8 +14,6 @@
 </p>
 
 ## 介绍
-
-[zebra-swiper](https://github.com/zebra-ui/zebra-uniapp-swiper) 是基于 uniapp 开发的一款移动端轮播组件，旨在实现一些复杂的轮播交互。
 
 ## 特性
 
@@ -29,7 +27,7 @@
 ### npm 方式
 
 ```bash
-npm i @zebra-ui/swiper
+npm i mz-swiper
 ```
 
 ```js
@@ -47,9 +45,6 @@ npm i @zebra-ui/swiper
 }
 ```
 
-### uni_modules 方式
-
-[插件市场](https://ext.dcloud.net.cn/plugin?id=7273)直接导入即可
 
 ## 手机预览
 
@@ -67,8 +62,4 @@ npm i @zebra-ui/swiper
  <img alt="gif" src="https://assets-1256020106.file.myqcloud.com/zebra-swiper/show/total3.gif" width="300" style="margin:20px;" />
 </div>
 
-## 群
 
-QQ 群：947159437
-
-![image](https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/zebra-swiper-group-code.png)

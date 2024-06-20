@@ -1,7 +1,7 @@
 {
-  "name": "zebra-swiper",
+  "name": "mz-swiper",
   "version": "1.0.0",
-  "description": "zebra-swiper",
+  "description": "mz-swiper",
   "main": "index.js",
   "scripts": {
     "serve": "npm --prefix ./demos/zebra-swiper-demo-cli run serve",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zebra-ui/zebra-swiper.git"
+    "url": "git+https://github.com/MQL9011/mz-swiper.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zebra-ui/zebra-swiper/issues"
+    "url": "https://github.com/MQL9011/mz-swiper/issues"
   },
-  "homepage": "https://github.com/zebra-ui/zebra-swiper#readme",
+  "homepage": "https://github.com/MQL9011/mz-swiper#readme",
   "dependencies": {
     "@zebra-ui/eslint-config": "^1.0.5",
     "fs-extra": "^11.2.0"
