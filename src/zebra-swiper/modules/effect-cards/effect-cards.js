@@ -10,7 +10,6 @@ export default function EffectCards({ swiper, extendParams, on }) {
       rotate: true,
       perSlideRotate: 2,
       perSlideOffset: 8,
-      transformXAdd: 20,
     },
   });
 
@@ -59,7 +58,7 @@ export default function EffectCards({ swiper, extendParams, on }) {
         tY = `${-25 * subProgress * Math.abs(progress)}%`;
       }
 
-      tXAdd = transformXAdd;
+      tXAdd = 20;
       if (progress < 0) {
         // next
         tX = `calc(${tX}px + (${tXAdd * Math.abs(progress)}%))`;
